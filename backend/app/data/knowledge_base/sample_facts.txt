@@ -1,0 +1,19 @@
+The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It was completed in 1889 for the World's Fair and stands about 330 metres tall.
+
+Mount Everest, in the Himalayas on the border between Nepal and China, is Earth's highest mountain above sea level at 8,849 metres.
+
+The speed of light in a vacuum is exactly 299,792,458 metres per second.
+
+Python is a programming language created by Guido van Rossum and first released in 1991.
+
+At standard atmospheric pressure at sea level, water boils at 100 degrees Celsius.
+
+The Pacific Ocean is the largest and deepest of Earth's oceans.
+
+Marie Curie won the Nobel Prize in Physics in 1903 and the Nobel Prize in Chemistry in 1911. She was born in Warsaw, Poland.
+
+Albert Einstein published his theory of general relativity in 1915.
+
+The capital city of Australia is Canberra, not Sydney or Melbourne.
+
+The human heart has four chambers: two atria and two ventricles.

@@ -1,0 +1,24 @@
+# --- web server ---
+fastapi
+uvicorn[standard]
+python-dotenv
+requests
+
+# --- NLP / models ---
+torch
+transformers
+sentence-transformers
+faiss-cpu
+spacy
+rank-bm25
+
+# --- classifier + explainability ---
+xgboost
+shap>=0.48
+scikit-learn
+pandas
+numpy
+
+# --- tests ---
+pytest
+httpx

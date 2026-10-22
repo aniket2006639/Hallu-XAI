@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Hallucination XAI Detector",
+  "version": "0.1.0",
+  "description": "Checks AI chat answers for hallucinations and explains why a claim was flagged.",
+  "permissions": ["activeTab", "sidePanel"],
+  "host_permissions": ["http://localhost:8000/*", "http://127.0.0.1:8000/*"],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chatgpt.com/*",
+        "https://chat.openai.com/*",
+        "https://claude.ai/*",
+        "https://gemini.google.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "action": { "default_title": "Hallucination XAI Detector" },
+  "side_panel": { "default_path": "sidepanel.html" },
+  "icons": { "16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png" }
+}

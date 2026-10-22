@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hallucination XAI Detector</title>
+  <link rel="stylesheet" href="sidepanel.css" />
+</head>
+<body>
+  <header>
+    <h1>Hallucination Detector</h1>
+    <span id="backend-badge" class="badge">checking…</span>
+  </header>
+
+  <button id="analyze" class="primary">Analyze last AI answer / selected text</button>
+
+  <details>
+    <summary>Or paste text to check</summary>
+    <textarea id="manual" rows="5" placeholder="Paste any AI-generated text here…"></textarea>
+  </details>
+
+  <p id="status" class="status"></p>
+  <div id="results"></div>
+
+  <script src="sidepanel.js"></script>
+</body>
+</html>
