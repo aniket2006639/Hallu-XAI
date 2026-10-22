@@ -3,6 +3,7 @@ fastapi
 uvicorn[standard]
 python-dotenv
 requests
+rich
 
 # --- NLP / models ---
 torch
